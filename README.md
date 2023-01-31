@@ -8,16 +8,19 @@ Instructions on how to set up and run the scripts will be listed as comments in 
 
 ## Scripts
 
-- github-search.py
+- github-search.py:
+
   You can run this code in your local machine with python installed and it will prompt you to enter the search string and it will return the table in a more readable format with 3 columns "name", "html_url", and "forks" and sorted based on the column forks in descending order.
 
-- csv2md.py 
+- csv2md.py:
+
 example 1:
-   python csv2md.py file.csv 
+   <python csv2md.py file.csv >
+
 This script will process specific conversion of file.csv to file.md
 
 example 2:
-     python csv2md.py
+     <python csv2md.py>
 
 The script will process all the CSV files in the current folder and create corresponding Markdown files in the same folder.
 The original CSV files will remain in the folder.
