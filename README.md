@@ -15,12 +15,16 @@ Instructions on how to set up and run the scripts will be listed as comments in 
 - csv2md.py:
 
 example 1:
-   <python csv2md.py file.csv >
+   ``` 
+   python csv2md.py file.csv
+   ```
 
 This script will process specific conversion of file.csv to file.md
 
 example 2:
-     <python csv2md.py>
+```
+     python csv2md.py
+```
 
 The script will process all the CSV files in the current folder and create corresponding Markdown files in the same folder.
 The original CSV files will remain in the folder.
