@@ -15,20 +15,27 @@ Instructions on how to set up and run the scripts will be listed as comments in 
 - csv2md.py:
 
 example 1:
-   ``` 
+   ```
    python csv2md.py file.csv
    ```
 
 This script will process specific conversion of file.csv to file.md
 
 example 2:
-```
+  ```
      python csv2md.py
-```
+  ```
 
 The script will process all the CSV files in the current folder and create corresponding Markdown files in the same folder.
 The original CSV files will remain in the folder.
 Note: This script is designed to work with only CSV files in the current folder. Before running the script, make sure that the folder only contains the desired CSV files.
+
+- openAIPhotoGen.py
+
+The code allows the user to input the "prompt" value. The user's input is passed to the API call, which generates an image based on the prompt. The code checks the status code of the response and, if successful, extracts the URL of the generated image and downloads it as a PNG file. If the API call was not successful, an error message is printed with the response code.
+
+Obtain API key at: https://platform.openai.com/account/api-keys 
+
 
 - ### more to be added
 
