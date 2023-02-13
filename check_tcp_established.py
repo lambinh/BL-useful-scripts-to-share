@@ -48,7 +48,13 @@ def get_established_connections():
             foreign_ip = match.group(3)
             port = match.group(4)
             connections.append((foreign_ip, port))
-
+        # Use regular expression to match the foreign host IP and port for Linux or Windows
+        match = re.search("(\d{1,3}\.\d{1,3}\.\d{1,3}\.\d{1,3}):(\d+) +(\d{1,3}\.\d{1,3}\.\d{1,3}\.\d{1,3}):(\d+) +.*", line)
+        if match:
+            foreign_ip = match.group(3)
+            port = match.group(4)
+            connections.append((foreign_ip, port))
+            
     # Remove duplicate IP addresses
     unique_connections = set(connections)
 
