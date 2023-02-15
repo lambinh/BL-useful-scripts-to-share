@@ -1,3 +1,18 @@
+# *** Usage Notes to Non-Technical Users:
+#
+# This code requires the following modules:
+#    os, re, json, urllib, platform, and prettytable.
+# Make sure that you have all the required modules installed.
+#
+# If you encounter a "ModuleNotFoundError" error while running the code,
+# it means that you are missing a required module.
+#
+# To install the missing module, you can use the "pip" command in the command prompt or terminal.
+#
+# For example, to install the "prettytable" module, you can run the following command:
+#
+#        pip install prettytable
+#=======================================
 import os
 import re
 import json
@@ -54,7 +69,7 @@ def get_established_connections():
             foreign_ip = match.group(3)
             port = match.group(4)
             connections.append((foreign_ip, port))
-            
+
     # Remove duplicate IP addresses
     unique_connections = set(connections)
 
