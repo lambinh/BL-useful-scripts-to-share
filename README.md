@@ -36,6 +36,21 @@ The code allows the user to input the "prompt" value. The user's input is passed
 
 Obtain API key at: https://platform.openai.com/account/api-keys 
 
+- check_tcp_established.py:
+    First, make sure that you have all the required modules installed. The code requires the following modules: os, re, json, urllib, platform, and   prettytable.
+
+    If you encounter a "ModuleNotFoundError" error while running the code, it means that you are missing a required module. To install the missing module, you can use the "pip" command in the command prompt or terminal.
+
+    For example, to install the "prettytable" module, you can run the following command:
+
+    ``` pip install prettytable ```
+
+    If you have installed the missing module, but the error persists, make sure that you are using the correct Python environment. You may need to specify the correct environment or update your PATH variable to point to the correct location.
+
+    If you still encounter an error or are unsure of what to do, you can check the module's documentation or seek help from an expert.
+
+    Finally, if you see a "not found" error while running the code, it means that the code is unable to retrieve information from the API or the netstat command. In this case, you can check your internet connection or verify that the netstat command is installed on your system. If you are unsure of how to install or use the netstat command, you can consult the documentation for your operating system or seek help from an expert.
+
 
 - ### more to be added
 
