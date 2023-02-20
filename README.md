@@ -84,7 +84,12 @@ Please make sure to follow the project guidelines and coding standards while con
 Please also be aware that before merging the pull request, the code will be reviewed by the maintainers, so please be patient and responsive to feedback and suggestions.
 ## License
 
-Information about the license under which the repository is released.
+GNU GENERAL PUBLIC LICENSE
+
+## Disclaimer and Terms of Use:
+
+Please note that the codes provided on this Github repository is intended for educational purposes only. It is not intended for commercial use or distribution without the express written consent of the owner of the repository. The code is provided as-is and the owner of the repository makes no representations or warranties of any kind, express or implied, about the completeness, accuracy, reliability, suitability or availability with respect to the code. The use of the code is at the user's own risk, and the owner of the repository shall not be liable for any direct, indirect, incidental, special or consequential damages arising out of or in any way connected with the use of the code. By using the code, you acknowledge and agree to these terms and conditions.
+
 
 ## Acknowledgments
 
